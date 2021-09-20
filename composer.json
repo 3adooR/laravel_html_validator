@@ -1,0 +1,26 @@
+{
+  "name": "idm/laravel_html_validator",
+  "description": "Laravel package with service to validate HTML",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "IDM\\LaravelHtmlValidator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ilin Dmitry",
+      "email": "3adoor@mail.ru"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^8.40"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "\\IDM\\LaravelHtmlValidator\\ServiceProvider"
+      ]
+    }
+  }
+}
