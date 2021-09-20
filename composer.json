@@ -1,6 +1,7 @@
 {
-  "name": "idm/laravel_html_validator",
+  "name": "idm/laravel-html-validator",
   "description": "Laravel package with service to validate HTML",
+  "version": "1.0.0",
   "type": "library",
   "autoload": {
     "psr-4": {
@@ -16,6 +17,7 @@
   "require": {
     "illuminate/support": "^8.40"
   },
+  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
