@@ -8,14 +8,10 @@
       "IDM\\LaravelHtmlValidator\\": "src/"
     }
   },
-  "authors": [
-    {
-      "name": "Ilin Dmitry",
-      "email": "3adoor@mail.ru"
-    }
-  ],
   "require": {
-    "illuminate/support": "^8.40"
+    "illuminate/support": "^8.40",
+    "ext-curl": "*",
+    "php": ">=7.2"
   },
   "minimum-stability": "dev",
   "extra": {
