@@ -3,6 +3,14 @@
   "description": "Laravel package with service to validate HTML",
   "version": "1.0.0",
   "type": "library",
+  "keywords": [
+    "laravel",
+    "html",
+    "validator",
+    "parser",
+    "validate"
+  ],
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "IDM\\LaravelHtmlValidator\\": "src/"
